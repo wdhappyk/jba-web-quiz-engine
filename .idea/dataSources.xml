@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="quizdb" uuid="355d3b66-71c7-480d-880f-23e245b0b05b">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:$PROJECT_DIR$/../quizdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Web_Quiz_Engine.Web_Quiz_Engine-task.main/Hibernate" uuid="c5cf1860-5d18-4eb4-a4e9-dedcf19a7346">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:file:../quizdb</jdbc-url>
+    </data-source>
+  </component>
+</project>
